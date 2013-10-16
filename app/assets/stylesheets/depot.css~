@@ -152,7 +152,7 @@
   font-size: small;
 }
 
-#time {
+#side % {
   color: #bfb;
   font-size: small;
 }
