@@ -21,7 +21,7 @@
     <div id="time">
       <br />
       This page was loaded at:<br />
-      <%= Time.now.strftime("%H/%M/%S") %> <br />
+      <%= Time.now.strftime("%H:%M:%S") %> <br />
       <%= Time.now.strftime("%d/%m/%Y") %>
     </div>
     </div>
