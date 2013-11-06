@@ -18,6 +18,11 @@
       <a href="http://www..../faq">Questions</a><br />
       <a href="http://www..../news">News</a><br />
       <a href="http://www..../contact">Contact</a><br />
+    <div id="cart">
+    <% if @cart %>
+      <%= render @cart %>
+    <% end %>
+    </div>
     <div id="time">
       <br />
       This page was loaded at:<br />

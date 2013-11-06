@@ -19,7 +19,12 @@
       <a href="http://www..../news">News</a><br />
       <a href="http://www..../contact">Contact</a><br />
     <div id="cart">
-    <%= render @cart %>
+    <% if @cart %>
+      <%= render @cart %>
+    <% end %>
+    </div>
+    <div id="checkout">
+    <%= button_to "Checkout", new_order_url, :method => :get %>
     </div>
     <div id="time">
       <br />
